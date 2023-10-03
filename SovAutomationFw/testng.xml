@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Sovereign Test Suite" data-provider-thread-count="2">
+	<test parallel="true" thread-count="2" name="Tenancy Management test">
+		<classes>
+		<class name="com.sat.TestRunner.TestRunner_Optimization" />
+        
+		<!--
+        
+		<class name="com.sat.TestRunner.TestRunner_GenericCasesOptimization" />
+		<class name="com.sat.TestRunner.TestRunner_FraudCases" />
+		<class name="com.sat.TestRunner.TestRunner_LocalGlobalSearch" />
+		 <class name="com.sat.TestRunner.TestRunner_CustomerEntity" />
+		<class name="com.sat.TestRunner.TestRunner_CustomerEntitiesForm" />
+		<class name="com.sat.TestRunner.TestRunner_Neighbourhood" />
+		<class name="com.sat.TestRunner.TestRunner_SLATIMER" />
+		<class name="com.sat.TestRunner.TestRunner_BlockSchemeCases" />		
+		<class name="com.sat.TestRunner.TestRunner_AutoRoutingTask" />		
+<class name="com.sat.TestRunner.TestRunner_Complaints" />
+		<class name="com.sat.TestRunner.TestRunner_Queues" />		
+		<class name="com.sat.TestRunner.TestRunner_GenericCases" />
+<class name="com.sat.TestRunner.TestRunner_CaseAutoRouting" />
+<class name="com.sat.TestRunner.TestRunner_Queues" />
+
+
+		-->
+
+		</classes>
+	</test>
+
+	<test parallel="true" thread-count="2" name="Employment Training test">
+		<classes>
+
+		<!-- 
+
+
+		<class name="com.sat.TestRunner.TestRunner_Assessment_ET" />
+		<class name="com.sat.TestRunner.TestRunner_ActionPlan_ET" />   execute later
+		<class name="com.sat.TestRunner.TestRunner_ETCase_ET" />
+		<class name="com.sat.TestRunner.TestRunner_Potential_ET" />	
+		<class name="com.sat.TestRunner.TestRunner_ContractsReferrals_ET" />
+		<class name="com.sat.TestRunner.TestRunner_Navigation_ET"/>
+		<class name="com.sat.TestRunner.TestRunner_Outcome" />
+		<class name="com.sat.TestRunner.TestRunner_RegressionOptimization_ET" />
+		-->
+		</classes>
+	</test>
+
+	<test parallel="true" thread-count="2" name="Sales Test">
+		<classes>
+
+		<!-- 	
+		<class name="com.sat.TestRunner.TestRunner_Salesflow" />	
+		<class name="com.sat.TestRunner.TestRunner_Creations" />
+		<class name="com.sat.TestRunner.TestRunner_Navigation_Sales" />
+		<class name="com.sat.TestRunner.TestRunner_ProcessingApplications" />
+		<class name="com.sat.TestRunner.TestRunner_StatusFlags" />		
+		-->
+		</classes>
+	</test>
+
+	<test parallel="true" thread-count="2" name="ReSales Test">
+		<classes>
+	<class name="com.sat.TestRunner.TestRunner_ProcessingApplications_Resales" />
+		<!--
+		<class name="com.sat.TestRunner.TestRunner_Navigation_ResalesHub" />
+		<class name="com.sat.TestRunner.TestRunner_Creations_Resales" />
+		<class name="com.sat.TestRunner.TestRunner_ProcessingApplications_Resales_Staircasing" />
+		<class name="com.sat.TestRunner.TestRunner_ProcessingApplications_Resales" />
+		-->
+		</classes>
+	</test>
+
+	<test parallel="true" thread-count="2" name="User Stories">
+		<classes>
+		<!-- 	
+		<class name="com.sat.TestRunner.TestRunner_Userstories" />
+        <class name="com.sat.TestRunner.TestRunner_Userstories_Sprint15" />
+		<class name="com.sat.TestRunner.TestRunner_Userstories_Sprint13" />
+		<class name="com.sat.TestRunner.TestRunner_Userstories_Sprint14" />
+		<class name="com.sat.TestRunner.TestRunner_Userstories_Sprint15" />
+		<class name="com.sat.TestRunner.TestRunner_Userstories_Sprint18" />
+		<class name="com.sat.TestRunner.TestRunner_Userstories_Sprint19" />
+		<class name="com.sat.TestRunner.TestRunner_Userstories_Sprint20" />
+		<class name="com.sat.TestRunner.TestRunner_Userstories_Sprint21" />
+<class name="com.sat.TestRunner.TestRunner_Userstories_Sprint22" />
+		-->
+		</classes>
+	</test>
+
+</suite>
